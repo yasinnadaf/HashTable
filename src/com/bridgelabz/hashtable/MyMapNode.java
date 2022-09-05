@@ -10,4 +10,12 @@ public class MyMapNode<K,V> {
         this.key = key;
         this.value = value;
     }
+
+    @Override
+    public String toString() {
+        return "MyMapNode{" +
+                "key=" + key +
+                ", value=" + value +
+                '}';
+    }
 }
